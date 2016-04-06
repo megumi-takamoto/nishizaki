@@ -1,0 +1,157 @@
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.1
+*/
+
+
+body {
+	font: 14px/1.231 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro';
+	-webkit-text-size-adjust: 100%;
+	
+}
+header {
+	background: url(../images/bg_header.png) repeat-x;
+}
+h2 {
+	font-size: 19px;
+	text-shadow: 1px 1px 2px #ccc;
+	color: #8a1e83;
+	height:35px;
+	margin: 35px 0px 10px 0px;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+	border-top: 1px #8a1e83 solid;
+border-right: 1px #8a1e83 solid;
+border-bottom: 1px #8a1e83 solid;
+border-left: 1px #8a1e83 solid;
+}
+#wrap {
+	padding: 10px;
+}
+
+nav {
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background-color: #8a1e83;
+	background: -webkit-gradient(linear, left top, left bottom, from(#9e3a98), to(#8a1e83));
+	font-size: 107%;
+	width: 300px;
+	margin: 0 auto;
+}
+nav li {
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	border-left: 1px solid #fff;
+	text-shadow: -1px -1px 0 rgba(150, 150, 150, 0.3);
+}
+nav li a {
+	display: block;
+	width: 99px;
+	padding: 8px 0;
+}
+nav li:first-child {
+	border: none;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+section, nav {
+	margin-bottom: 1em;
+}
+h3 {
+	background: url(../images/ico_title.png) left top no-repeat;
+	padding-left: 20px;
+	color: #8a1e83;
+	margin-bottom: 1em;
+	min-height: 23px;
+	text-align: left;
+}
+p {
+	margin-bottom: 1em;
+}
+aside {
+	background-color: #e0cfdf;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	padding: 10px;
+	text-align: left;
+}
+aside p:last-child {
+	margin-bottom: 0;
+}
+#switchButton {
+	clear: both;
+	text-align: center;
+	font-size: 80%;
+}
+#btnTop {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #cbcccf;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cbcccf), to(#acaeb0));
+	width: 7em;
+	font-size: 85%;
+	text-align: center;
+	float: right;
+	margin-right: 10px;
+}
+#btnTop a {
+	text-shadow: 1px 1px 0 #ddd;
+	display: block;
+	padding: 5px 0;
+	color: #444444;
+	text-decoration: none;
+}
+
+footer {
+	height: 45px;
+	border-top: 1px solid #ebebeb;
+	padding-top: 1px;
+	background: url(../images/bg_footer.png) repeat-x;
+}
+
+footer p {
+	font-size: 11px;
+	text-align:center;
+	color:#FFF;
+	clear: both;
+	padding: 0;
+}
+footer img {
+	vertical-align: top;
+}
+footer p:last-child {
+	margin: 0;
+}
+
+#balloon {
+	width: 200px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	box-shadow: 0 0 15px #666;
+	-webkit-box-shadow: 0 0 15px #666;
+	position: absolute;
+	background-color: rgba(231, 26, 91, 0.9);
+;
+	padding: 20px;
+	color: #fff;
+	line-height: 1.5;
+	text-align: center;
+}
+
+#balloon p {
+	margin: 0;
+}
+
+/* clearfix */
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
